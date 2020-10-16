@@ -1,0 +1,31 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Arquitectura de Sotware}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Diagrama de Clases}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Scheduling}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Configuración del software requerido}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Instalacion de Visual Studio}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Instalación de Paquetes}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Configuración del escalamiento}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Virtual Serial Ports Free}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Descripción de los archivos y las clases}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}ArduinoPins}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Board}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Command}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Config}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}CurrentState}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}F09-F84 Handler}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}G00 and G28 Handler}{10}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}GCodeHandler}{10}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}GCodeProcessor}{10}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}MainInterface}{11}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}MovementAxis}{11}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Movement}{11}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}ParameterList}{11}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}PinClass}{11}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}PinControl}{11}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Pins}{11}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}StatusList}{12}{subsection.4.17}%
+\contentsline {section}{\numberline {5}Probando el código}{12}{section.5}%
+\contentsline {section}{\numberline {6}Trabajos futuros}{12}{section.6}%

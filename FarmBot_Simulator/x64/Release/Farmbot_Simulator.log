@@ -1,0 +1,76 @@
+﻿  Main_Interface.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\Main_Interface.h(2,10): fatal error C1083: Cannot open include file: 'Farmbot.h': No such file or directory
+  ArduinoPins.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\ArduinoPins.cpp(1,10): fatal error C1083: Cannot open include file: 'ArduinoPins.h': No such file or directory
+  Command.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\Command.cpp(1,10): fatal error C1083: Cannot open include file: 'Command.h': No such file or directory
+  CurrentState.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\CurrentState.cpp(8,10): fatal error C1083: Cannot open include file: 'CurrentState.h': No such file or directory
+  F09Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F09Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F09Handler.h': No such file or directory
+  F11Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F11Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F11Handler.h': No such file or directory
+  F12Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F12Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F12Handler.h': No such file or directory
+  F13Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F13Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F13Handler.h': No such file or directory
+  F14Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F14Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F14Handler.h': No such file or directory
+  F15Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F15Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F15Handler.h': No such file or directory
+  F16Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F16Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F16Handler.h': No such file or directory
+  F20Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F20Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'F20Handler.h': No such file or directory
+  F21Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F21Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'F21Handler.h': No such file or directory
+  F22Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F22Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'F22Handler.h': No such file or directory
+  F31Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F31Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F31Handler.h': No such file or directory
+  F32Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F32Handler.cpp(9,10): fatal error C1083: Cannot open include file: 'F32Handler.h': No such file or directory
+  F41Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F41Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F41Handler.h': No such file or directory
+  F42Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F42Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'F42Handler.h': No such file or directory
+  F43Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F43Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F43Handler.h': No such file or directory
+  F44Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F44Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F44Handler.h': No such file or directory
+  Generating Code...
+  Compiling...
+  F61Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F61Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F61Handler.h': No such file or directory
+  F81Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F81Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F81Handler.h': No such file or directory
+  F82Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F82Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F82Handler.h': No such file or directory
+  F83Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F83Handler.cpp(10,10): fatal error C1083: Cannot open include file: 'F83Handler.h': No such file or directory
+  F84Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\F84Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'F84Handler.h': No such file or directory
+  Farmbot.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\Farmbot.cpp(1,10): fatal error C1083: Cannot open include file: 'Farmbot.h': No such file or directory
+  G00Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\G00Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'G00Handler.h': No such file or directory
+  G28Handler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\G28Handler.cpp(8,10): fatal error C1083: Cannot open include file: 'G28Handler.h': No such file or directory
+  GCodeHandler.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\GCodeHandler.cpp(8,10): fatal error C1083: Cannot open include file: 'GCodeHandler.h': No such file or directory
+  GCodeProcessor.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\GCodeProcessor.cpp(9,10): fatal error C1083: Cannot open include file: 'GCodeProcessor.h': No such file or directory
+  Movement.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\Movement.cpp(1,10): fatal error C1083: Cannot open include file: 'Movement.h': No such file or directory
+  MovementAxis.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\MovementAxis.cpp(8,10): fatal error C1083: Cannot open include file: 'MovementAxis.h': No such file or directory
+  ParameterList.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\ParameterList.cpp(1,10): fatal error C1083: Cannot open include file: 'ParameterList.h': No such file or directory
+  PinClass.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\PinClass.cpp(1,10): fatal error C1083: Cannot open include file: 'PinClass.h': No such file or directory
+  PinControl.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\PinControl.cpp(2,10): fatal error C1083: Cannot open include file: 'PinControl.h': No such file or directory
+  StatusList.cpp
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\src\StatusList.cpp(1,10): fatal error C1083: Cannot open include file: 'StatusList.h': No such file or directory
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...

@@ -1,0 +1,25 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Instalacion del software requerido}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Anaconda Navigator}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Instalación de paquetes}{4}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Virtual Serial Ports Free}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Interfaz C++}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Utilización de la interfaz}{6}{section.3}%
+\contentsline {section}{\numberline {4}Arquitectura de software}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Diagrama de clases}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}scheduling}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Descripción de las clases}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Farmbot}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Graphic Interface}{10}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}MovementFrame}{10}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}LedsFrame}{10}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}AutoManFrame}{10}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}ModesFrame}{10}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}SensorFrame}{10}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}LogoFrame}{11}{subsubsection.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.7}SubsensorFrame}{11}{subsubsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.3}Pot}{11}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Probando el código}{11}{section.6}%
+\contentsline {section}{\numberline {7}Trabajo futuro}{11}{section.7}%

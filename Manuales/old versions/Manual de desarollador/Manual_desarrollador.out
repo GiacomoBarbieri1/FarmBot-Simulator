@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Arquitectura de Sotware}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Diagrama de Clases}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Scheduling}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Configuraci\363n del software requerido}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Instalacion de Visual Studio}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Instalaci\363n de Paquetes}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Configuraci\363n del escalamiento}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Virtual Serial Ports Free}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Descripci\363n de los archivos y las clases}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{ArduinoPins}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Board}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Command}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Config}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.5}{CurrentState}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.6}{F09-F84 Handler}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.7}{G00 and G28 Handler}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.8}{GCodeHandler}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.9}{GCodeProcessor}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.10}{MainInterface}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.11}{MovementAxis}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.12}{Movement}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.13}{ParameterList}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.14}{PinClass}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.15}{PinControl}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.16}{Pins}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.17}{StatusList}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Probando el c\363digo}{}% 28
+\BOOKMARK [1][-]{section.6}{Trabajos futuros}{}% 29

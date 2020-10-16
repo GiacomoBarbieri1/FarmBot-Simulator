@@ -1,0 +1,99 @@
+﻿  Main_Interface.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\Main_Interface.h(914,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\Main_Interface.h(915,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\Main_Interface.h(916,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ArduinoPins.cpp
+  Command.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(23,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(40,19): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(190,29): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(195,29): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(200,29): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(210,23): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(215,26): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(220,27): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(225,19): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(230,16): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(235,16): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Command.cpp(240,20): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+  CurrentState.cpp
+  F09Handler.cpp
+  F11Handler.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F11Handler.cpp(58,5): warning C4060: switch statement contains no 'case' or 'default' labels
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F11Handler.cpp(44,7): warning C4101: 'stepNr': unreferenced local variable
+  F12Handler.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F12Handler.cpp(58,5): warning C4060: switch statement contains no 'case' or 'default' labels
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F12Handler.cpp(44,7): warning C4101: 'stepNr': unreferenced local variable
+  F13Handler.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F13Handler.cpp(60,5): warning C4060: switch statement contains no 'case' or 'default' labels
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\F13Handler.cpp(46,7): warning C4101: 'stepNr': unreferenced local variable
+  F14Handler.cpp
+  F15Handler.cpp
+  F16Handler.cpp
+  F20Handler.cpp
+  F21Handler.cpp
+  F22Handler.cpp
+  F31Handler.cpp
+  F32Handler.cpp
+  F41Handler.cpp
+  F42Handler.cpp
+  F43Handler.cpp
+  F44Handler.cpp
+  Generating Code...
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\ArduinoPins.cpp(50): warning C4715: 'ArduinoPins::searchPin': not all control paths return a value
+  Compiling...
+  F61Handler.cpp
+  F81Handler.cpp
+  F82Handler.cpp
+  F83Handler.cpp
+  F84Handler.cpp
+  Farmbot.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Farmbot.cpp(380,42): warning C4244: '=': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Farmbot.cpp(414,45): warning C4244: '=': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+  G00Handler.cpp
+  G28Handler.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\G28Handler.cpp(34,26): warning C4838: conversion from 'double' to 'long' requires a narrowing conversion
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\G28Handler.cpp(34,26): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\G28Handler.cpp(34,31): warning C4838: conversion from 'double' to 'long' requires a narrowing conversion
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\G28Handler.cpp(34,31): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  GCodeHandler.cpp
+  GCodeProcessor.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\GCodeProcessor.cpp(209,93): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+  Movement.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(220,14): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(221,14): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(222,14): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(239,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(248,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\Movement.cpp(257,30): warning C4018: '<': signed/unsigned mismatch
+  MovementAxis.cpp
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(201,36): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(214,84): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(232,84): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(340,67): warning C4244: '+=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(342,67): warning C4244: '-=': conversion from '_Rep' to 'long', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(404,26): warning C4244: '=': conversion from 'double' to 'unsigned long', possible loss of data
+C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\src\MovementAxis.cpp(405,27): warning C4244: '=': conversion from 'double' to 'unsigned long', possible loss of data
+  ParameterList.cpp
+  PinClass.cpp
+  PinControl.cpp
+  StatusList.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'C:\Users\juanr\Documents\FarmBot\FarmBot_Simulator\x64\Debug\Farmbot_Simulator.exe'

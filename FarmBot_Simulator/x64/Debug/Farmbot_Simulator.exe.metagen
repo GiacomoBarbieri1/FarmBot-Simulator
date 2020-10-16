@@ -1,0 +1,61 @@
+  FarmbotSimulator.Main_Interface.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Farmbot_Simulator, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct PinObj: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ArduinoPins: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Farmbot: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.IO.Ports.SerialPort): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.IO.Ports.SerialPort m_serialPort : Public
+  Methods:
+    setPinInputOutput(): PrivateScope, Public, HideBySig
+    readParameters(): PrivateScope, Public, HideBySig
+    loadMovementSetting(): PrivateScope, Public, HideBySig
+    startMotor(): PrivateScope, Public, HideBySig
+    startPinGuard(): PrivateScope, Public, HideBySig
+    startServo(): PrivateScope, Public, HideBySig
+    startInterrupt(): PrivateScope, Public, HideBySig
+    initLastAction(): PrivateScope, Public, HideBySig
+    homeOnBoot(): PrivateScope, Public, HideBySig
+    loop(): PrivateScope, Public, HideBySig
+    checkPinGuard(): PrivateScope, Public, HideBySig
+    checkSerialInputs(): PrivateScope, Public, HideBySig
+    checkEmergencyStop(): PrivateScope, Public, HideBySig
+    checkParamsChanged(): PrivateScope, Public, HideBySig
+    periodicChecksAndReport(): PrivateScope, Public, HideBySig
+    conv2Str(SByte*): PrivateScope, Public, HideBySig
+    conv2Str(SByte*): PrivateScope, Public, HideBySig
+Class FarmbotSimulator.Main_Interface: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class FarmbotSimulator.Main_Interface+SafeCallBack: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Object, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class FarmbotSimulator.Main_Interface+update_position_delegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask

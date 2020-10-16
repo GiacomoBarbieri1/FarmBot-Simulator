@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Instalacion del software requerido}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Anaconda Navigator}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Instalaci\363n de paquetes}{subsection.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Virtual Serial Ports Free}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Interfaz C++}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Utilizaci\363n de la interfaz}{}% 7
+\BOOKMARK [1][-]{section.4}{Arquitectura de software}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Diagrama de clases}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{scheduling}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Descripci\363n de las clases}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Farmbot}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Graphic Interface}{section.5}% 13
+\BOOKMARK [3][-]{subsubsection.5.2.1}{MovementFrame}{subsection.5.2}% 14
+\BOOKMARK [3][-]{subsubsection.5.2.2}{LedsFrame}{subsection.5.2}% 15
+\BOOKMARK [3][-]{subsubsection.5.2.3}{AutoManFrame}{subsection.5.2}% 16
+\BOOKMARK [3][-]{subsubsection.5.2.4}{ModesFrame}{subsection.5.2}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.5}{SensorFrame}{subsection.5.2}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.6}{LogoFrame}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.7}{SubsensorFrame}{subsection.5.2}% 20
+\BOOKMARK [2][-]{subsection.5.3}{Pot}{section.5}% 21
+\BOOKMARK [1][-]{section.6}{Probando el c\363digo}{}% 22
+\BOOKMARK [1][-]{section.7}{Trabajo futuro}{}% 23

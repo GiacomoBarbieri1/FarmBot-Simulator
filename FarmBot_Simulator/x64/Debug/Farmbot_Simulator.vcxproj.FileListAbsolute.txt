@@ -1,0 +1,10 @@
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.exe
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.pdb
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.vcxprojAssemblyReference.cache
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\x64\Debug\FarmbotSimulator.Main_Interface.resources
+C:\Users\alexm\OneDrive - Universidad de Los Andes\Tesis Mecánica\Codigos c++\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.vcxproj.GenerateResource.cache
+C:\Users\juanr\Documents\Carpeta final\Códigos\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.vcxprojAssemblyReference.cache
+C:\Users\juanr\Documents\Carpeta final\Códigos\Farmbot_Simulator\x64\Debug\FarmbotSimulator.Main_Interface.resources
+C:\Users\juanr\Documents\Carpeta final\Códigos\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.vcxproj.GenerateResource.cache
+C:\Users\juanr\Documents\Carpeta final\Códigos\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.exe
+C:\Users\juanr\Documents\Carpeta final\Códigos\Farmbot_Simulator\x64\Debug\Farmbot_Simulator.pdb

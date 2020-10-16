@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{71315B0D-5935-4CA3-A11A-9DEFAA24F82B}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>FarmbotSimulator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>images;include;src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>include;images;src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Interface.cpp" />
+    <ClCompile Include="src\ArduinoPins.cpp" />
+    <ClCompile Include="src\Command.cpp" />
+    <ClCompile Include="src\CurrentState.cpp" />
+    <ClCompile Include="src\F09Handler.cpp" />
+    <ClCompile Include="src\F11Handler.cpp" />
+    <ClCompile Include="src\F12Handler.cpp" />
+    <ClCompile Include="src\F13Handler.cpp" />
+    <ClCompile Include="src\F14Handler.cpp" />
+    <ClCompile Include="src\F15Handler.cpp" />
+    <ClCompile Include="src\F16Handler.cpp" />
+    <ClCompile Include="src\F20Handler.cpp" />
+    <ClCompile Include="src\F21Handler.cpp" />
+    <ClCompile Include="src\F22Handler.cpp" />
+    <ClCompile Include="src\F31Handler.cpp" />
+    <ClCompile Include="src\F32Handler.cpp" />
+    <ClCompile Include="src\F41Handler.cpp" />
+    <ClCompile Include="src\F42Handler.cpp" />
+    <ClCompile Include="src\F43Handler.cpp" />
+    <ClCompile Include="src\F44Handler.cpp" />
+    <ClCompile Include="src\F61Handler.cpp" />
+    <ClCompile Include="src\F81Handler.cpp" />
+    <ClCompile Include="src\F82Handler.cpp" />
+    <ClCompile Include="src\F83Handler.cpp" />
+    <ClCompile Include="src\F84Handler.cpp" />
+    <ClCompile Include="src\Farmbot.cpp" />
+    <ClCompile Include="src\G00Handler.cpp" />
+    <ClCompile Include="src\G28Handler.cpp" />
+    <ClCompile Include="src\GCodeHandler.cpp" />
+    <ClCompile Include="src\GCodeProcessor.cpp" />
+    <ClCompile Include="src\Movement.cpp" />
+    <ClCompile Include="src\MovementAxis.cpp" />
+    <ClCompile Include="src\ParameterList.cpp" />
+    <ClCompile Include="src\PinClass.cpp" />
+    <ClCompile Include="src\PinControl.cpp" />
+    <ClCompile Include="src\StatusList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ArduinoPins.h" />
+    <ClInclude Include="include\Board.h" />
+    <ClInclude Include="include\Command.h" />
+    <ClInclude Include="include\Config.h" />
+    <ClInclude Include="include\CurrentState.h" />
+    <ClInclude Include="include\F09Handler.h" />
+    <ClInclude Include="include\F11Handler.h" />
+    <ClInclude Include="include\F12Handler.h" />
+    <ClInclude Include="include\F13Handler.h" />
+    <ClInclude Include="include\F14Handler.h" />
+    <ClInclude Include="include\F15Handler.h" />
+    <ClInclude Include="include\F16Handler.h" />
+    <ClInclude Include="include\F20Handler.h" />
+    <ClInclude Include="include\F21Handler.h" />
+    <ClInclude Include="include\F22Handler.h" />
+    <ClInclude Include="include\F31Handler.h" />
+    <ClInclude Include="include\F32Handler.h" />
+    <ClInclude Include="include\F41Handler.h" />
+    <ClInclude Include="include\F42Handler.h" />
+    <ClInclude Include="include\F43Handler.h" />
+    <ClInclude Include="include\F44Handler.h" />
+    <ClInclude Include="include\F61Handler.h" />
+    <ClInclude Include="include\F81Handler.h" />
+    <ClInclude Include="include\F82Handler.h" />
+    <ClInclude Include="include\F83Handler.h" />
+    <ClInclude Include="include\F84Handler.h" />
+    <ClInclude Include="include\Farmbot.h" />
+    <ClInclude Include="include\G00Handler.h" />
+    <ClInclude Include="include\G28Handler.h" />
+    <ClInclude Include="include\GCodeHandler.h" />
+    <ClInclude Include="include\GCodeProcessor.h" />
+    <ClInclude Include="include\Movement.h" />
+    <ClInclude Include="include\MovementAxis.h" />
+    <ClInclude Include="include\ParameterList.h" />
+    <ClInclude Include="include\PinClass.h" />
+    <ClInclude Include="include\PinControl.h" />
+    <ClInclude Include="include\pins.h" />
+    <ClInclude Include="include\StatusList.h" />
+    <ClInclude Include="Main_Interface.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Main_Interface.resx">
+      <DependentUpon>Main_Interface.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
